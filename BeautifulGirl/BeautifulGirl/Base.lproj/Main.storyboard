@@ -14,13 +14,31 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scene_35_00" translatesAutoresizingMaskIntoConstraints="NO" id="N0g-Ga-PbL">
+                                <rect key="frame" x="107" y="293" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Klj-QS-1ul"/>
+                                    <constraint firstAttribute="height" constant="150" id="eJs-E0-a4d"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N0g-Ga-PbL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZVI-nd-444"/>
+                            <constraint firstItem="N0g-Ga-PbL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y4Z-6E-efZ"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="408" y="227"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="scene_35_00" width="800" height="600"/>
+    </resources>
 </document>
